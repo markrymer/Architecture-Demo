@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Architecture Demo</string>
+    <string name="rate_me_message">Rate me</string>
+    <string name="architecture_demo">Architecture demo</string>
+</resources>
