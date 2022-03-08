@@ -1,4 +1,4 @@
-package com.sky.architecturedemo.domain.repositories
+package com.sky.domain.repositories
 
 interface RateMeRepository {
 

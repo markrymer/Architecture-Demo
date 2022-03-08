@@ -1,7 +1,7 @@
-package com.sky.architecturedemo.domain.usecases
+package com.sky.domain.usecases
 
-import com.sky.architecturedemo.domain.models.RateMeModel
-import com.sky.architecturedemo.domain.repositories.RateMeRepository
+import com.sky.domain.models.RateMeModel
+import com.sky.domain.repositories.RateMeRepository
 import javax.inject.Inject
 
 class ShouldPromptToRateUseCase

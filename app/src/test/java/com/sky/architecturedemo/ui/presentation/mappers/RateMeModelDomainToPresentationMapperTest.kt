@@ -1,7 +1,7 @@
 package com.sky.architecturedemo.ui.presentation.mappers
 
 import com.sky.architecturedemo.R
-import com.sky.architecturedemo.domain.models.RateMeModel
+import com.sky.domain.models.RateMeModel
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import org.mockito.kotlin.doReturn

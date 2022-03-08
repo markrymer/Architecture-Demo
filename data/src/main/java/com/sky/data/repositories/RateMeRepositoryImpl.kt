@@ -1,7 +1,7 @@
-package com.sky.architecturedemo.data
+package com.sky.data.repositories
 
 import android.content.SharedPreferences
-import com.sky.architecturedemo.domain.repositories.RateMeRepository
+import com.sky.domain.repositories.RateMeRepository
 import javax.inject.Inject
 
 const val LAUNCH_COUNT_KEY = "launch_count"
