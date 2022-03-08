@@ -1,4 +1,4 @@
-package com.sky.architecturedemo.ui.presentation.mappers
+package com.sky.architecturedemo.presentation.mappers
 
 import com.sky.architecturedemo.R
 import com.sky.domain.models.RateMeModel

@@ -1,12 +1,12 @@
-package com.sky.architecturedemo.ui.presentation
+package com.sky.architecturedemo.presentation
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
 import com.sky.domain.models.RateMeModel
 import com.sky.domain.usecases.AppHasLaunchedUseCase
 import com.sky.domain.usecases.ShouldPromptToRateUseCase
-import com.sky.architecturedemo.ui.presentation.mappers.RateMeModelDomainToPresentationMapper
-import com.sky.architecturedemo.ui.presentation.uiModels.RatingPromptUiModel
+import com.sky.architecturedemo.presentation.mappers.RateMeModelDomainToPresentationMapper
+import com.sky.architecturedemo.presentation.uiModels.RatingPromptUiModel
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test

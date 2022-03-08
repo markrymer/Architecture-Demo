@@ -1,11 +1,11 @@
-package com.sky.architecturedemo.ui.presentation
+package com.sky.architecturedemo.presentation
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.sky.domain.usecases.AppHasLaunchedUseCase
 import com.sky.domain.usecases.ShouldPromptToRateUseCase
-import com.sky.architecturedemo.ui.presentation.mappers.RateMeModelDomainToPresentationMapper
-import com.sky.architecturedemo.ui.presentation.uiModels.RatingPromptUiModel
+import com.sky.architecturedemo.presentation.mappers.RateMeModelDomainToPresentationMapper
+import com.sky.architecturedemo.presentation.uiModels.RatingPromptUiModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 

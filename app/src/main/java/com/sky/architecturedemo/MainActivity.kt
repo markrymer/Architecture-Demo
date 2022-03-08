@@ -2,7 +2,7 @@ package com.sky.architecturedemo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.sky.architecturedemo.ui.presentation.MainFragment
+import com.sky.architecturedemo.presentation.MainFragment
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

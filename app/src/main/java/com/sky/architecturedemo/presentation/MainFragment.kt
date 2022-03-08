@@ -1,4 +1,4 @@
-package com.sky.architecturedemo.ui.presentation
+package com.sky.architecturedemo.presentation
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.viewModels
 import com.sky.architecturedemo.R
-import com.sky.architecturedemo.ui.presentation.uiModels.RatingPromptUiModel
+import com.sky.architecturedemo.presentation.uiModels.RatingPromptUiModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -26,7 +26,7 @@ class MainFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        viewModel.shouldPromptLiveData.observe(this) {
+        viewModel.shouldPromptLiveData.observe(viewLifecycleOwner) {
             handleRatingPromptEvent(it)
         }
     }

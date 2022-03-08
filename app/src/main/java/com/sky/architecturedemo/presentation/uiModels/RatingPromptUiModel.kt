@@ -1,4 +1,4 @@
-package com.sky.architecturedemo.ui.presentation.uiModels
+package com.sky.architecturedemo.presentation.uiModels
 
 import androidx.annotation.StringRes
 
